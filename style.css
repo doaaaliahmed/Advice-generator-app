@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+   position: relative;
+   height:100vh;
+   width:100%;
+   font-size: 16px;
+   font-family: 'Manrope', sans-serif;
+}
+
+main{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding:40px;
+  box-shadow: 3px 3px 10px 2px rgb(18, 18, 36) ;
+  text-align: center;
+  height:fit-content;
+  width:40%;
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  color:white;
+  background-color:  hsl(217, 19%, 24%);;
+
+}
+
+
+@media (max-width:768px){
+   
+    main{
+        width:80%;
+    }
+}
+
+
+.advice__Num{
+    color:hsl(150, 100%, 66%);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:10px 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+  
+    
+}
+
+.adivce__par{
+    margin:10px auto;
+    width:80%;
+    font-size:1rem;
+    font-weight:500;
+    line-height: 30px;
+    padding:10px 0;
+    color: hsl(193, 38%, 86%);
+   
+}
+
+#line{
+    margin:20px auto;
+    width:80%;
+    height:3px;
+    border-bottom:1px solid white;
+    position: relative;
+}
+
+#pauseImg{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color:   hsl(217, 19%, 24%);
+    z-index: 10;
+    width:50px;
+}
+ 
+button{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    background-color:hsl(150, 100%, 66%);
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+ button:hover{
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0px 0px 18px 0px hsl(150deg 100% 66%);
+}

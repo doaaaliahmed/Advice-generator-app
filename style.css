@@ -13,6 +13,8 @@ body{
    font-family: 'Manrope', sans-serif;
 }
 
+
+
 main{
   position: absolute;
   top:50%;
@@ -38,12 +40,7 @@ main{
 }
 
 
-@media (max-width:768px){
-   
-    main{
-        width:80%;
-    }
-}
+
 
 
 .advice__Num{
@@ -111,4 +108,11 @@ button{
  button:hover{
     background-color: hsl(150, 100%, 66%);
     box-shadow: 0px 0px 18px 0px hsl(150deg 100% 66%);
+}
+
+@media screen and (max-width:768px){
+   
+    main{
+        width:80%;
+    }
 }
